@@ -16,7 +16,7 @@ const getValue = async () => {
 <template>
     <div>Test view</div>
     <button @click.prevent="getValue">Test</button>
-    <p v-if="response">{{response.data}}</p>
+    <p v-if="response">Key: {{response.data}}</p>
 </template>
 
 <style scoped>
